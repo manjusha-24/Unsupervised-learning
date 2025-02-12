@@ -1,14 +1,3 @@
-# Unsupervised-learning
-Unsupervised learning is a type of machine learning where the model learns patterns and relationships in the data without labeled outputs. Unlike supervised learning, where the model is trained on labeled data, unsupervised learning identifies hidden structures, clusters, or associations within the dataset. Common techniques in unsupervised learning include:
-
-Clustering: Grouping similar data points together (e.g., K-means, DBSCAN, Hierarchical Clustering).
-
-Dimensionality Reduction: Reducing the number of variables in the dataset (e.g., PCA, t-SNE).
-
-Anomaly Detection: Identifying unusual data points (e.g., Isolation Forest, One-Class SVM).
-
-In this project, clustering algorithms are used to classify houses based on their energy consumption patterns, helping to derive meaningful insights for energy management and optimization.
-
 Energy Consumption Clustering
 
 Problem Statement
@@ -37,11 +26,11 @@ Other_appliances_consumption: The power consumption of the appliances other than
 
 Table of Content
 
-Import Libraries
+1.Import Libraries
 
-Read Data
+2.Read Data
 
-Exploratory Data Analysis
+3.Exploratory Data Analysis
 
 3.1 - Understand the Dataset
 
@@ -57,7 +46,7 @@ Exploratory Data Analysis
 
 3.7 - Prepare the Data
 
-K-means Clustering
+4.K-means Clustering
 
 4.1 - Identify the Optimal Number of Clusters
 
@@ -65,7 +54,7 @@ K-means Clustering
 
 4.3 - Analyze the Clusters
 
-Hierarchical Clustering
+5.Hierarchical Clustering
 
 5.1 - Identify the Optimal Number of Clusters
 
@@ -73,26 +62,16 @@ Hierarchical Clustering
 
 5.3 - Analyze the Clusters
 
-DBSCAN
+6.DBSCAN
 
 6.1 - Build the Model
 
 6.2 - Analyze the Clusters
 
-Visualize the Clusters
+7.Visualize the Clusters
 
-Cluster Analysis
+The subplots above represent clusters formed by different algorithms. We can see that the K-means and hierarchical clustering have created 3 clusters, while the DBSCAN algorithm has grouped the data into 4 clusters.
 
-The subplots represent clusters formed by different algorithms:
+The plots for K-means and hierarchical clustering show similarity in cluster formation. The DBSCAN algorithm has clustered houses based on the power consumption of the other appliances in the house. Also, the blue points in the DBSCAN plot represent the outliers identified by the algorithm.
 
-K-means and hierarchical clustering created 3 clusters.
-
-The DBSCAN algorithm grouped the data into 4 clusters.
-
-The cluster formations of K-means and hierarchical clustering are quite similar.
-
-The DBSCAN algorithm categorized houses based on the power consumption of appliances other than the kitchen and laundry.
-
-The blue points in the DBSCAN plot represent outliers detected by the algorithm.
-
-Some points overlap due to the projection of a 7-D dataset into 2-D, which explains only 65% of the total variance in the original data.
+We can see that some points overlap in the subplots, this is because we have projected a 7-D dataset to 2-D which is explaining only 65 percent of total variance in the original data.
