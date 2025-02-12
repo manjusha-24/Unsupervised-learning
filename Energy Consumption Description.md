@@ -26,11 +26,11 @@ Other_appliances_consumption: The power consumption of the appliances other than
 
 Table of Content
 
-1.Import Libraries
+1. Import Libraries
 
-2.Read Data
+2. Read Data
 
-3.Exploratory Data Analysis
+3. Exploratory Data Analysis
 
 3.1 - Understand the Dataset
 
@@ -46,7 +46,7 @@ Table of Content
 
 3.7 - Prepare the Data
 
-4.K-means Clustering
+4. K-means Clustering
 
 4.1 - Identify the Optimal Number of Clusters
 
@@ -54,7 +54,7 @@ Table of Content
 
 4.3 - Analyze the Clusters
 
-5.Hierarchical Clustering
+5. Hierarchical Clustering
 
 5.1 - Identify the Optimal Number of Clusters
 
@@ -62,13 +62,13 @@ Table of Content
 
 5.3 - Analyze the Clusters
 
-6.DBSCAN
+6. DBSCAN
 
 6.1 - Build the Model
 
 6.2 - Analyze the Clusters
 
-7.Visualize the Clusters
+7. Visualize the Clusters
 
 The subplots above represent clusters formed by different algorithms. We can see that the K-means and hierarchical clustering have created 3 clusters, while the DBSCAN algorithm has grouped the data into 4 clusters.
 
