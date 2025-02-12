@@ -1,12 +1,12 @@
-Energy Consumption Clustering
+# Energy Consumption Clustering
 
-Problem Statement
+### Problem Statement
 
 Typically, a house in Manhattan comprises various electrical appliances. Each of these appliances partly contributes to the total energy consumption of the house. Grouping these houses based on their power usage helps analyze electricity demand in different parts of the city. These insights can also be useful in identifying appliances with high and low electricity consumption.
 
 In this case study, we consider the power consumption due to various appliances in the house and try to group the houses based on their power consumption.
 
-Data Definition
+### Data Definition
 
 The dataset represents the electric power consumption in the house. The data attributes are defined as follows:
 
@@ -24,7 +24,7 @@ Laundry_consumption: The power consumption of the appliances in the laundry room
 
 Other_appliances_consumption: The power consumption of the appliances other than in the kitchen and laundry room (in watt-hour).
 
-Table of Content
+### Table of Content
 
 1. Import Libraries
 
@@ -69,6 +69,8 @@ Table of Content
 6.2 - Analyze the Clusters
 
 7. Visualize the Clusters
+
+   ### Analysis and Conculsion.
 
 The subplots above represent clusters formed by different algorithms. We can see that the K-means and hierarchical clustering have created 3 clusters, while the DBSCAN algorithm has grouped the data into 4 clusters.
 
